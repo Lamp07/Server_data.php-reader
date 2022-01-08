@@ -20,7 +20,7 @@ async def on_ready():
 async def read(ctx, ip):
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Connection": "close",
+        #"Connection": "close",
         "Accept": "*/*",
         "Host": random.choice(host),
         "Content-Length": random.choice(cl),
